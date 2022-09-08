@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SingUp"
+    tools:ignore="HardcodedText">
+
+    <TextView
+        android:id="@+id/SingUp"
+        style="@style/word_title"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:textAlignment="center"
+        android:text="SingUp" />
+
+    <EditText
+        android:id="@+id/input_username_singup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/SingUp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:drawableEnd="@drawable/ic_person"
+        android:inputType="textPersonName"
+        android:autofillHints="name"
+        android:ems="15"
+        android:hint="NOME"
+        android:maxLength="30" />
+
+    <EditText
+        android:id="@+id/input_email_singup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/input_username_singup"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:drawableEnd="@drawable/ic_email"
+        android:autofillHints="emailAddress"
+        android:ems="15"
+        android:hint="EMAIL"
+        android:inputType="textEmailAddress"
+        android:maxLength="50" />
+
+    <EditText
+        android:id="@+id/input_password_singup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/input_email_singup"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:autofillHints="password"
+        android:drawableEnd="@drawable/ic_eye"
+        android:ems="15"
+        android:hint="SENHA"
+        android:inputType="text"
+        android:maxLength="30" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_saveUser"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/input_password_singup"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="salvar"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

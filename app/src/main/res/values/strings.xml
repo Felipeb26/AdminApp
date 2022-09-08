@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">admin</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--    TODO: Links contato-->
+    <string name="link_linkedin"><a href="https://www.linkedin.com/in/felipebatista-silva/">Linkedin</a></string>
+    <string name="link_whatapp"><a href="http://api.whatsapp.com/send?phone=5511971404157/">WhatsApp</a></string>
+    <string name="link_github"> <a href="https://github.com/Felipeb26">Github</a></string>
+    <string name="link_email"> <a href="mailto:felipeb2silva@gmail.com">Email</a></string>
+
+    <!--    TODO: Links Share-->
+    <string name="link_share_whats"><a href="whatsapp://send?text=The text to share!">share using whatsapp</a></string>
+    <string name="link_share_face"><a href="https://facebook.com/">share using facebook</a></string>
+    <string name="link_share_tiktok"><a href="https://www.tiktok.com/">share using tiktok</a></string>
+    <string name="link_share_insta"><a href="https://www.instagram.com/">share using instagram</a></string>
+    <string name="key_login">com.bats.admin.USER_LOGIN</string>
+
+</resources>
