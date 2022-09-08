@@ -15,5 +15,6 @@
     <string name="link_share_tiktok"><a href="https://www.tiktok.com/">share using tiktok</a></string>
     <string name="link_share_insta"><a href="https://www.instagram.com/">share using instagram</a></string>
     <string name="key_login">com.bats.admin.USER_LOGIN</string>
+    <string name="link_apk"><a href="https://github.com/Felipeb26/AdminApp/blob/master/admin.apk">link do apk</a></string>
 
 </resources>
