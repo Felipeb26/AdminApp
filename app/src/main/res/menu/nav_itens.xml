@@ -10,6 +10,11 @@
             android:icon="@drawable/ic_home"
             android:title="HOME" />
         <item
+            android:id="@+id/map"
+            android:title="MAPA"
+            android:icon="@drawable/ic_map"
+            />
+        <item
             android:id="@+id/video"
             android:icon="@drawable/ic_video_library"
             android:title="VIDEOS"/>

@@ -5,7 +5,7 @@
 
     <!--    TODO: Links contato-->
     <string name="link_linkedin"><a href="https://www.linkedin.com/in/felipebatista-silva/">Linkedin</a></string>
-    <string name="link_whatapp"><a href="http://api.whatsapp.com/send?phone=5511971404157/">WhatsApp</a></string>
+    <string name="link_whatapp"><a href="https://api.whatsapp.com/send?phone=5511971404157/">WhatsApp</a></string>
     <string name="link_github"> <a href="https://github.com/Felipeb26">Github</a></string>
     <string name="link_email"> <a href="mailto:felipeb2silva@gmail.com">Email</a></string>
 
