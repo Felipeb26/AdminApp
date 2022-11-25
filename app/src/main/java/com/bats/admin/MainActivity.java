@@ -2,6 +2,7 @@ package com.bats.admin;
 
 import android.Manifest;
 import android.content.Context;
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
 import android.os.Bundle;
@@ -70,6 +71,10 @@ public class MainActivity extends AppCompatActivity {
                     case R.id.home:
                         replaceFragment(new Home());
                         break;
+                    case R.id.map:
+                        Intent intent = new Intent(MainActivity.this, Mapa.class);
+                        startActivity(intent);
+                        break;
                     case R.id.video:
                         replaceFragment(new Video());
                         break;
@@ -118,7 +123,7 @@ public class MainActivity extends AppCompatActivity {
                 new String[]{Manifest.permission.READ_EXTERNAL_STORAGE}, 123);
     }
 
-    private void exitApp(){
+    private void exitApp() {
         SharedPreferences preferences = getSharedPreferences(getString(R.string.key_login), Context.MODE_PRIVATE);
         SharedPreferences.Editor editor = preferences.edit();
         editor.remove("username");

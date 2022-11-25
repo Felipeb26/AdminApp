@@ -1,16 +1,16 @@
 package com.bats.admin.utils;
 
 import android.content.Context;
-import android.view.Gravity;
-import android.widget.Toast;
+
+import androidx.appcompat.app.AlertDialog;
 
 public class ToastNote {
 
-    public void toastNotification(Context context, String text){
-        Toast toast = new Toast(context);
-        toast.setDuration(Toast.LENGTH_SHORT);
-        toast.setText(text);
-        toast.setGravity(Gravity.CENTER,0,0);
-        toast.show();
+    public void toastNotification(Context context, String text) {
+        AlertDialog.Builder dialog = new AlertDialog.Builder(context);
+        dialog.setCancelable(true);
+        dialog.setNeutralButton("OK", null);
+        dialog.setMessage(text);
+        dialog.show();
     }
 }
